@@ -13,8 +13,12 @@ import Nimble
 class meeterSpec: QuickSpec {
 
     override func spec() {
-        it("should add number") {
+        it("should have equal strings") {
             expect("iks").to(equal("iks"))
+        }
+
+        it("should add numbers") {
+            expect(2+2).to(equal(4))
         }
     }
 
