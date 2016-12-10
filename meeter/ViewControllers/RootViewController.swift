@@ -8,12 +8,13 @@
 
 import UIKit
 
-class RootViewController: UIViewController {
+class RootViewController: ViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = UIColor.red
+    override func setupProperties() {
+        super.setupProperties()
+        view.backgroundColor = UIColor.blue
     }
+
 
 }
 
