@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5257A541DF9FB310054BED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5257A531DF9FB310054BED1 /* AppDelegate.swift */; };
-		D5257A561DF9FB310054BED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5257A551DF9FB310054BED1 /* ViewController.swift */; };
-		D5257A5B1DF9FB310054BED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5257A5A1DF9FB310054BED1 /* Assets.xcassets */; };
-		D5257A5E1DF9FB310054BED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5257A5C1DF9FB310054BED1 /* LaunchScreen.storyboard */; };
-		D5257A691DF9FB310054BED1 /* meeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5257A681DF9FB310054BED1 /* meeterTests.swift */; };
+		753FD7A65A41DAE821DCEBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753FDF76E86534C3CD6C6729 /* Assets.xcassets */; };
+		753FD9F496E6E39B37058B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD9A153E6F22C3B5E1EB6 /* AppDelegate.swift */; };
+		753FDD14958678D88F0693A8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD96F0512106EFA5DA850 /* RootViewController.swift */; };
+		D5257A691DF9FB310054BED1 /* meeterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5257A681DF9FB310054BED1 /* meeterSpec.swift */; };
 		D5257A741DF9FB310054BED1 /* meeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5257A731DF9FB310054BED1 /* meeterUITests.swift */; };
+		D68C36288B7D188A3429939D /* Pods_meeterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0C0DEA31E6256BE7A6C834 /* Pods_meeterTests.framework */; };
+		E13EBB909DC7382F261F33AF /* Pods_meeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629030DD03A87A1DFE4D41E8 /* Pods_meeter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0C0DEA31E6256BE7A6C834 /* Pods_meeterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meeterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EDD54FB1D07DF273B83D5C /* Pods-meeterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meeterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-meeterTests/Pods-meeterTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B7AEA6766BCE9C2BDC3362A /* Pods-meeterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meeterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meeterTests/Pods-meeterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		629030DD03A87A1DFE4D41E8 /* Pods_meeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		753FD96F0512106EFA5DA850 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		753FD9A153E6F22C3B5E1EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		753FDF76E86534C3CD6C6729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		753FDF7A5785FDCB3F555DA5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		D0505287D8F33A2E4BB3CF84 /* Pods-meeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meeter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meeter/Pods-meeter.debug.xcconfig"; sourceTree = "<group>"; };
 		D5257A501DF9FB310054BED1 /* meeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5257A531DF9FB310054BED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5257A551DF9FB310054BED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D5257A5A1DF9FB310054BED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D5257A5D1DF9FB310054BED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D5257A5F1DF9FB310054BED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5257A641DF9FB310054BED1 /* meeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5257A681DF9FB310054BED1 /* meeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meeterTests.swift; sourceTree = "<group>"; };
+		D5257A681DF9FB310054BED1 /* meeterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meeterSpec.swift; sourceTree = "<group>"; };
 		D5257A6A1DF9FB310054BED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5257A6F1DF9FB310054BED1 /* meeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5257A731DF9FB310054BED1 /* meeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meeterUITests.swift; sourceTree = "<group>"; };
 		D5257A751DF9FB310054BED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82853A199286AE1989592EF /* Pods-meeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meeter.release.xcconfig"; path = "Pods/Target Support Files/Pods-meeter/Pods-meeter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E13EBB909DC7382F261F33AF /* Pods_meeter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68C36288B7D188A3429939D /* Pods_meeterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +80,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A19B7514ED6A2E2D0C1D4E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				629030DD03A87A1DFE4D41E8 /* Pods_meeter.framework */,
+				0A0C0DEA31E6256BE7A6C834 /* Pods_meeterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3316FAA1B928BD34CC4BCF31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0505287D8F33A2E4BB3CF84 /* Pods-meeter.debug.xcconfig */,
+				E82853A199286AE1989592EF /* Pods-meeter.release.xcconfig */,
+				2B7AEA6766BCE9C2BDC3362A /* Pods-meeterTests.debug.xcconfig */,
+				26EDD54FB1D07DF273B83D5C /* Pods-meeterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		753FD2BC929F01175C319FFF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				753FDF76E86534C3CD6C6729 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		753FD58190207C75E6CB379F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				753FD9A153E6F22C3B5E1EB6 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		753FD68E1B332F785BF282B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				753FD2BC929F01175C319FFF /* Assets */,
+				753FDCE8619F188DE336C5D8 /* Plists */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		753FD9840937DE0AD2C09B1E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				753FD96F0512106EFA5DA850 /* RootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		753FDCE8619F188DE336C5D8 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				753FDF7A5785FDCB3F555DA5 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
 		D5257A471DF9FB300054BED1 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +148,8 @@
 				D5257A671DF9FB310054BED1 /* meeterTests */,
 				D5257A721DF9FB310054BED1 /* meeterUITests */,
 				D5257A511DF9FB310054BED1 /* Products */,
+				3316FAA1B928BD34CC4BCF31 /* Pods */,
+				0A19B7514ED6A2E2D0C1D4E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +166,9 @@
 		D5257A521DF9FB310054BED1 /* meeter */ = {
 			isa = PBXGroup;
 			children = (
-				D5257A531DF9FB310054BED1 /* AppDelegate.swift */,
-				D5257A551DF9FB310054BED1 /* ViewController.swift */,
-				D5257A5A1DF9FB310054BED1 /* Assets.xcassets */,
-				D5257A5C1DF9FB310054BED1 /* LaunchScreen.storyboard */,
-				D5257A5F1DF9FB310054BED1 /* Info.plist */,
+				753FD9840937DE0AD2C09B1E /* ViewControllers */,
+				753FD68E1B332F785BF282B6 /* Resources */,
+				753FD58190207C75E6CB379F /* Application */,
 			);
 			path = meeter;
 			sourceTree = "<group>";
@@ -107,7 +176,7 @@
 		D5257A671DF9FB310054BED1 /* meeterTests */ = {
 			isa = PBXGroup;
 			children = (
-				D5257A681DF9FB310054BED1 /* meeterTests.swift */,
+				D5257A681DF9FB310054BED1 /* meeterSpec.swift */,
 				D5257A6A1DF9FB310054BED1 /* Info.plist */,
 			);
 			path = meeterTests;
@@ -129,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5257A781DF9FB310054BED1 /* Build configuration list for PBXNativeTarget "meeter" */;
 			buildPhases = (
+				9AC705228BE3153C34DBB1B2 /* [CP] Check Pods Manifest.lock */,
 				D5257A4C1DF9FB300054BED1 /* Sources */,
 				D5257A4D1DF9FB300054BED1 /* Frameworks */,
 				D5257A4E1DF9FB300054BED1 /* Resources */,
+				B3EACBE6F363A5ACC0A5A152 /* [CP] Embed Pods Frameworks */,
+				63BB2C16ABEDD56E56EB781C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5257A7B1DF9FB310054BED1 /* Build configuration list for PBXNativeTarget "meeterTests" */;
 			buildPhases = (
+				1FF38F64A4E260003E198559 /* [CP] Check Pods Manifest.lock */,
 				D5257A601DF9FB310054BED1 /* Sources */,
 				D5257A611DF9FB310054BED1 /* Frameworks */,
 				D5257A621DF9FB310054BED1 /* Resources */,
+				9E84396301D081C7E3117BE3 /* [CP] Embed Pods Frameworks */,
+				162A00825FC720135D1A09BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5257A5E1DF9FB310054BED1 /* LaunchScreen.storyboard in Resources */,
-				D5257A5B1DF9FB310054BED1 /* Assets.xcassets in Resources */,
+				753FD7A65A41DAE821DCEBD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,13 +324,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		162A00825FC720135D1A09BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meeterTests/Pods-meeterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FF38F64A4E260003E198559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63BB2C16ABEDD56E56EB781C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meeter/Pods-meeter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC705228BE3153C34DBB1B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E84396301D081C7E3117BE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meeterTests/Pods-meeterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3EACBE6F363A5ACC0A5A152 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meeter/Pods-meeter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D5257A4C1DF9FB300054BED1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5257A561DF9FB310054BED1 /* ViewController.swift in Sources */,
-				D5257A541DF9FB310054BED1 /* AppDelegate.swift in Sources */,
+				753FDD14958678D88F0693A8 /* RootViewController.swift in Sources */,
+				753FD9F496E6E39B37058B88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5257A691DF9FB310054BED1 /* meeterTests.swift in Sources */,
+				D5257A691DF9FB310054BED1 /* meeterSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,17 +457,6 @@
 			targetProxy = D5257A701DF9FB310054BED1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D5257A5C1DF9FB310054BED1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5257A5D1DF9FB310054BED1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D5257A761DF9FB310054BED1 /* Debug */ = {
@@ -396,9 +552,11 @@
 		};
 		D5257A791DF9FB310054BED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0505287D8F33A2E4BB3CF84 /* Pods-meeter.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = meeter/Info.plist;
+				INFOPLIST_FILE = meeter/Resources/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markowski.meeter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,9 +566,11 @@
 		};
 		D5257A7A1DF9FB310054BED1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82853A199286AE1989592EF /* Pods-meeter.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = meeter/Info.plist;
+				INFOPLIST_FILE = meeter/Resources/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markowski.meeter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,8 +580,9 @@
 		};
 		D5257A7C1DF9FB310054BED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7AEA6766BCE9C2BDC3362A /* Pods-meeterTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = meeterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -434,8 +595,9 @@
 		};
 		D5257A7D1DF9FB310054BED1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26EDD54FB1D07DF273B83D5C /* Pods-meeterTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = meeterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -449,7 +611,7 @@
 		D5257A7F1DF9FB310054BED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = meeterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markowski.meeterUITests;
@@ -462,7 +624,7 @@
 		D5257A801DF9FB310054BED1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = meeterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markowski.meeterUITests;
@@ -491,6 +653,7 @@
 				D5257A7A1DF9FB310054BED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5257A7B1DF9FB310054BED1 /* Build configuration list for PBXNativeTarget "meeterTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +662,7 @@
 				D5257A7D1DF9FB310054BED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5257A7E1DF9FB310054BED1 /* Build configuration list for PBXNativeTarget "meeterUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +671,7 @@
 				D5257A801DF9FB310054BED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
