@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		753FD122452EB410DDFCA707 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD165093506BFDEA09442 /* ViewController.swift */; };
+		753FD13C4C375C9B4A779552 /* MeetupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD1689D808748CF490838 /* MeetupsViewController.swift */; };
+		753FD1F8DA42EEBDEBE9EE3C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FDA74E53A2EE0E825B0FC /* ProfileViewController.swift */; };
 		753FD7A65A41DAE821DCEBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753FDF76E86534C3CD6C6729 /* Assets.xcassets */; };
+		753FD84629B429AF1E7C0217 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD5A2E7F1ECFD5C7E7E22 /* FriendsViewController.swift */; };
 		753FD9F496E6E39B37058B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD9A153E6F22C3B5E1EB6 /* AppDelegate.swift */; };
+		753FDC6A3C67FB808329581D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD6F9B2AD8B6525F030F6 /* HomeViewController.swift */; };
 		753FDD14958678D88F0693A8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD96F0512106EFA5DA850 /* RootViewController.swift */; };
 		753FDEBFABE56BD11A451CE6 /* meeterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FDD21D43ADDC48784B105 /* meeterSpec.swift */; };
 		D5257A741DF9FB310054BED1 /* meeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5257A731DF9FB310054BED1 /* meeterUITests.swift */; };
@@ -40,8 +44,12 @@
 		2B7AEA6766BCE9C2BDC3362A /* Pods-meeterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meeterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meeterTests/Pods-meeterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		629030DD03A87A1DFE4D41E8 /* Pods_meeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		753FD165093506BFDEA09442 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		753FD1689D808748CF490838 /* MeetupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupsViewController.swift; sourceTree = "<group>"; };
+		753FD5A2E7F1ECFD5C7E7E22 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		753FD6F9B2AD8B6525F030F6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		753FD96F0512106EFA5DA850 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		753FD9A153E6F22C3B5E1EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		753FDA74E53A2EE0E825B0FC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		753FDD21D43ADDC48784B105 /* meeterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meeterSpec.swift; sourceTree = "<group>"; };
 		753FDED6CFEDCD7E7CAB01DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		753FDF76E86534C3CD6C6729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -160,6 +168,25 @@
 			path = Specs;
 			sourceTree = "<group>";
 		};
+		753FDA2C23F1E189E95C6329 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				753FDC7F86A4593DC87BD9AF /* Home */,
+				753FDA86F6F0C9D4D1BEDF99 /* Profile */,
+				753FDC0F4F1B900F8F974D59 /* Friends */,
+				753FDD65198D777F1886D6AC /* Meetups */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		753FDA86F6F0C9D4D1BEDF99 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				753FDA74E53A2EE0E825B0FC /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		753FDBD5CE4378AA9A004D22 /* Abstract */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,12 +195,36 @@
 			path = Abstract;
 			sourceTree = "<group>";
 		};
+		753FDC0F4F1B900F8F974D59 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				753FD5A2E7F1ECFD5C7E7E22 /* FriendsViewController.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		753FDC7F86A4593DC87BD9AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				753FD6F9B2AD8B6525F030F6 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		753FDCE8619F188DE336C5D8 /* Plists */ = {
 			isa = PBXGroup;
 			children = (
 				753FDF7A5785FDCB3F555DA5 /* Info.plist */,
 			);
 			path = Plists;
+			sourceTree = "<group>";
+		};
+		753FDD65198D777F1886D6AC /* Meetups */ = {
+			isa = PBXGroup;
+			children = (
+				753FD1689D808748CF490838 /* MeetupsViewController.swift */,
+			);
+			path = Meetups;
 			sourceTree = "<group>";
 		};
 		D5257A471DF9FB300054BED1 = {
@@ -204,6 +255,7 @@
 				753FD9840937DE0AD2C09B1E /* ViewControllers */,
 				753FD68E1B332F785BF282B6 /* Resources */,
 				753FD58190207C75E6CB379F /* Application */,
+				753FDA2C23F1E189E95C6329 /* Screens */,
 			);
 			path = meeter;
 			sourceTree = "<group>";
@@ -460,6 +512,10 @@
 				753FDD14958678D88F0693A8 /* RootViewController.swift in Sources */,
 				753FD9F496E6E39B37058B88 /* AppDelegate.swift in Sources */,
 				753FD122452EB410DDFCA707 /* ViewController.swift in Sources */,
+				753FD84629B429AF1E7C0217 /* FriendsViewController.swift in Sources */,
+				753FDC6A3C67FB808329581D /* HomeViewController.swift in Sources */,
+				753FD13C4C375C9B4A779552 /* MeetupsViewController.swift in Sources */,
+				753FD1F8DA42EEBDEBE9EE3C /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

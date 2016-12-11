@@ -12,7 +12,6 @@ class RootViewController: ViewController {
 
     override func setupProperties() {
         super.setupProperties()
-        view.backgroundColor = UIColor.blue
     }
 
 
