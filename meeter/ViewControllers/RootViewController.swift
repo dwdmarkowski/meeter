@@ -6,14 +6,7 @@
 //  Copyright © 2016 Dawid Markowski. All rights reserved.
 //
 
-import UIKit
-
 class RootViewController: ViewController {
-
-    override func setupProperties() {
-        super.setupProperties()
-    }
-
 
 }
 

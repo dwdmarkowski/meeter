@@ -3,6 +3,14 @@
 // Copyright (c) 2016 Dawid Markowski. All rights reserved.
 //
 
+import UIKit
+
 class FriendsViewController: ViewController {
+
+    override func setupProperties() {
+        super.setupProperties()
+        view.backgroundColor = UIColor.white
+    }
+
 
 }
