@@ -16,22 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /// - SeeAlso: UIApplicationDelegate.application(_:didFinishLaunchingWithOptions:)
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         guard let window = window else { fatalError("There is no way `window` is `nil` at this point") }
-        let tabBarController = UITabBarController()
-
-        let homeViewController = HomeViewController()
-        let profileViewController = ProfileViewController()
-        let friendsViewController = FriendsViewController()
-        let meetupsViewController = MeetupsViewController()
-
-        homeViewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "home-icon"), tag: 1)
-        profileViewController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-icon"), tag: 2)
-        friendsViewController.tabBarItem = UITabBarItem(title: "Friends", image: UIImage(named: "friends-icon"), tag: 3)
-        meetupsViewController.tabBarItem = UITabBarItem(title: "Meetups", image: UIImage(named: "meetups-icon"), tag: 4)
-
-        tabBarController.tabBar.backgroundColor = UIColor(red: 253.0 / 255.0, green: 253.0 / 255.0, blue: 253.0 / 255.0, alpha: 1.0)
-        tabBarController.tabBar.tintColor = UIColor(red: 88.0 / 255.0, green: 226 / 255.0, blue: 194 / 255.0, alpha: 1.0)
-        tabBarController.viewControllers = [homeViewController, profileViewController, friendsViewController, meetupsViewController]
-        window.rootViewController = tabBarController
+        window.rootViewController = MainViewController()
         window.makeKeyAndVisible()
         return true
     }

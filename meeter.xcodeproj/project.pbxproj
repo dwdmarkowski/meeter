@@ -13,6 +13,7 @@
 		753FD7A65A41DAE821DCEBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753FDF76E86534C3CD6C6729 /* Assets.xcassets */; };
 		753FD84629B429AF1E7C0217 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD5A2E7F1ECFD5C7E7E22 /* FriendsViewController.swift */; };
 		753FD9F496E6E39B37058B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD9A153E6F22C3B5E1EB6 /* AppDelegate.swift */; };
+		753FDA5A00B1A2F2D03BDFAB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD8D6DFC033669AB1C073 /* MainViewController.swift */; };
 		753FDC6A3C67FB808329581D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD6F9B2AD8B6525F030F6 /* HomeViewController.swift */; };
 		753FDD14958678D88F0693A8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FD96F0512106EFA5DA850 /* RootViewController.swift */; };
 		753FDEBFABE56BD11A451CE6 /* meeterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FDD21D43ADDC48784B105 /* meeterSpec.swift */; };
@@ -47,6 +48,7 @@
 		753FD1689D808748CF490838 /* MeetupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupsViewController.swift; sourceTree = "<group>"; };
 		753FD5A2E7F1ECFD5C7E7E22 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		753FD6F9B2AD8B6525F030F6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		753FD8D6DFC033669AB1C073 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		753FD96F0512106EFA5DA850 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		753FD9A153E6F22C3B5E1EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		753FDA74E53A2EE0E825B0FC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			children = (
 				753FD96F0512106EFA5DA850 /* RootViewController.swift */,
 				753FDBD5CE4378AA9A004D22 /* Abstract */,
+				753FD8D6DFC033669AB1C073 /* MainViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 				753FDC6A3C67FB808329581D /* HomeViewController.swift in Sources */,
 				753FD13C4C375C9B4A779552 /* MeetupsViewController.swift in Sources */,
 				753FD1F8DA42EEBDEBE9EE3C /* ProfileViewController.swift in Sources */,
+				753FDA5A00B1A2F2D03BDFAB /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
